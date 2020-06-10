@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Başlıksız Belge</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div class="genel">
+  <div class="üst">
+    <div class="logo"><img src="images/logo2.png" width="170" height="100" /> </div>
+    <div class="buton">
+    
+   <div id="yanMenu">
+<ul>
+<li><a href="https://store.arduino.cc/usa/">Mağaza</a></li>
+<li><a href="#">Yazılım</a>
+
+<ul>
+<li><a href="https://create.arduino.cc/">Çevrimiçi Araçlar</a></li>
+<li><a href="https://www.arduino.cc/en/Main/Software">İndirilenler</a></li>
+</ul>
+
+</li>
+
+<li><a href="https://www.arduino.cc/education">Eğitim</a></li>
+<li><a href="https://www.arduino.cc/pro">Profesyonel</a></li>
+
+<li><a href="#">Kaynaklar</a>
+<ul>
+<li><a href="https://create.arduino.cc/">Ürün: %s</a></li>
+<li><a href="https://www.arduino.cc/en/Main/Software">Başlangıç</a></li>
+<li><a href="https://www.arduino.cc/en/Tutorial/HomePage">Öğreticiler</a></li>
+<li><a href="https://www.arduino.cc/reference/en">Referans</a></li>
+<li><a href="https://www.arduino.cc/en/IoT/HomePage">IoT Bulutu</a></li>
+</ul>
+</li>
+
+<li><a href="#">Topluluklar</a>
+<ul>
+<li><a href="https://forum.arduino.cc/">Forum</a></li>
+<li><a href="https://blog.arduino.cc/">Blog</a></li>
+<li><a href="https://create.arduino.cc/projecthub">Proje Merkezi</a></li>
+<li><a href="https://playground.arduino.cc/">Oyun Alanı</a></li>
+<li><a href="https://www.arduino.cc/en/ArduinoAtHeart/Products">Kalpte</a></li>
+</ul>
+</li>
+
+<li><a href="#">Yardım</a>
+<ul>
+<li><a href="https://forum.arduino.cc/">SSS</a></li>
+<li><a href="https://blog.arduino.cc/">Bize Ulaşın</a></li>
+<li><a href="https://create.arduino.cc/projecthub">Mağaza Desteği</a></li>
+</ul>
+</li>
+<div style="clear:both"></div>
+</ul>
+
+</div>
+    </div>
+  </div>
+  <div class="içerikbutonu">
+  		<h3><center>İÇERİK</center></h3><hr width="200" />
+        		<a href="genelyapisi.html"><center>Sistemin Genel Yapısı</center></a><br />
+        <center><a href="sensör.html">Hc-SR04 Ultrasonik Sensör Sonar</a><br /><br /></center>
+        <center><a href="buzzer.html">Buzzer</a><br /><br /></center>
+        <center><a href="kodlama.html"> Kodlar</a></center>
+       
+</div>
+
+<div class="icerik"><h1><center>ARDUİNO  İLE MESAFE SENSÖRÜ </center></h1></p>
+<p>	Merhaba arkadaşlar, arduino mesafe sensörü kullanımı nasıl yapılır? Hc-sr04 ultrasonik mesafe sensörü arduino ile nasıl kullanılır beraber inceleyelim.</p>
+  <h2><strong>Arduino ile Ultrasonik Mesafe Sensörü Kullanımı için Gerekli Malzemeler:</strong></h2>
+  <ul>
+  <div class="yazi">
+   <li> Arduino UNO</li>
+   <li>Breadboard</li>
+   <li>1 adet Buzzer</li>
+   <li>1 adet 330Ω direnç</li>
+   <li>1 adet HC-SR04 ultrasonik mesafe sensörü</li>
+   <li>İki ucu erkek jumper kablo</li>
+
+  </div>
+  </ul>
+  <h2><strong>Ultrasonik Mesafe Sensörü Nedir Ne İşe Yarar?</strong></h2>
+  <p>Hc-sr04 Ultrasonik sensör sonar (Sound Navigation and Ranging ) iletişim kullanarak karşısındaki nesneye olan mesafeyi hesaplayan bir kaynaktır. Sonar dediğimiz sistem ses dalgalarını kullanarak cismin uzaklığını hesaplamamıza yardımcı olur. Bu tür sensörlerin esin kaynağı yunuslar ve yarasalardır. Yunuslar ve yarasalarda ses dalgası göndererek karşısına çıkabilecek engellerin mesafelerini hesaplayabilmektedirler. Hc-sr04 sensörümüzün 4 adet bacağı bulunmaktadır, bunlar:</p>
+  <ul>
+    <li>Vcc = 5v kaynağı.</li>
+    <li>Gnd = Topraklama bacağı.</li>
+    <li>Trig = Sensörün ses dalgası gönderen kısmı.</li>
+    <li>Echo = Gönderilen ses dalgasını alan kısmı. Hc-sr04 sensörümüz 5v elektrik akımı ile çalışmaktadır. En verimli ölçüm yaptığı mesafe 2-200 cm arasındadır. 200 cm&rsquo;den fazla mesafelerde verimli bir şekilde ölçüm yapmamaktadır.
+      <table width="736">
+        <tr>
+          <td width="193">&nbsp;</td>
+          <td width="372"><img src="images/şema.png" width="322" height="201" /></td>
+          <td width="70">&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td><center>
+            Arduino Park Sensörü Devresi<br />
+          </center></td>
+          <td>&nbsp;</td>
+        </tr>
+    </table>
+    </li>
+</ul>
+</div>
+
+<div class="ardiuno">
+<div class="ardiuno1"><img src="images/logo2.png" width="147" height="96" /><br /><a href="https://www.youtube.com/channel/UCAuUUnT6oDeKwE6v1NGQxug"> Ardiuno Nedir?</a></div><br />
+<div class="ardiuno2"><img src="images/3.png" width="147" height="114" /> <a href="https://www.arduino.cc/en/Main/Products"> Ardiuno Kurulumu</a> </div><br />
+<div class="ardiuno3"><img src="images/4.PNG" width="147" /><a href="https://www.arduino.cc/en/Main/Software">Ardiuno Yazılım</a></div>
+</div>
+<div class="alt">@2020 Ardiuno</div>
+</div>
+</body>
+</html>

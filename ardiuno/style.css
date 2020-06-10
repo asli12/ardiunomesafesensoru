@@ -1,0 +1,143 @@
+@charset "utf-8";
+.genel {
+	height: 1000px;
+	width: 1340px;
+}
+.logo {
+	float: left;
+	height: 100px;
+	width: 170px;
+	background-color:#00979C;
+}
+.üst{
+	height:100px;
+	background-color: #00979C;
+	}
+.buton {
+	background-color: #00979C;
+	float: right;
+	height: 50px;
+	width: 1100px;
+	margin-top: 50px;
+	margin-left: 20px;
+}
+
+.icerik{
+	width: 850px;
+	float: left;
+	margin-left: 40px;
+	height: 900px;
+	margin-top: 50px;
+	font-size: 16px;
+}
+
+.ardiuno{
+	width:150px;
+	height:500px;
+	float:right;
+	}
+
+.ardiuno1{
+	float:right;
+	width:150px;
+	height:150px;
+	text-align:center;
+	margin-top:150px;
+	}	
+.ardiuno1 a{
+	text-decoration:none;
+	color:#000;
+	}
+	
+.ardiuno2{
+	float:right;
+	width:150px;
+	height:150px;
+	text-align:center;
+	margin-top:20px;
+	}	
+.ardiuno2 a{
+	text-decoration:none;
+	color:#000;
+	}
+	
+.ardiuno3{
+	float:right;
+	width:150px;
+	height:150px;
+	text-align:center;
+	margin-top:20px;
+	}
+.ardiuno3 a{
+	text-decoration:none;
+	color:#000;
+	}
+
+
+#yanMenu {padding:0px; }
+
+#yanMenu ul {
+margin:0px;
+padding:0px;
+list-style-type:none; }
+
+#yanMenu li {
+float:left; 
+position:relative;
+width:150px;  }
+
+#yanMenu li ul {
+display:none;
+position:absolute; 
+left:0px; 
+top:29px; }
+
+ #yanMenu ul li a {
+background-color:#00979C;
+border:1px solid #00979C;
+color:#FFF;
+font-weight:bold;
+display:block;
+margin:0px;
+padding:2px;
+text-decoration:none;
+line-height:24px;
+text-align:center; }
+
+#yanMenu ul li a:hover {
+background-color:white;
+color:gray;}
+
+#yanMenu li:hover ul {
+display:block;}
+
+.içerikbutonu {
+	float: left;
+	height: 280px;
+	width: 250px;
+	margin-top:150px;
+	border: 2px solid #00979C;
+	margin-left: 10px;
+	text-decoration:none;
+}
+
+.içerikbutonu a{
+	color:#000;
+	text-decoration:none;
+}
+
+.alt{
+	float: left;
+	text-align: left;
+	background-color: #006062;
+	width: 1340px;
+	height: 50px;
+	margin-top: 50px;
+ }
+
+.yazi a{
+	text-decoration:none;
+	color:black;
+	width:250px;
+	height:100px;
+}
